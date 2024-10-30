@@ -1,0 +1,142 @@
+:root {
+    --bkml-color-good: #09a3a6;
+    --bkml-color-medium: #f6b52c;
+    --bkml-color-high: #FC4D0D;
+    --bkml-bg-btn-light: #a8cdec;
+    --bkml-bg-btn: #2271b1;
+    --bkml-blue: #2271b1;
+    --bkml-blue-hover: #135e96;
+}
+
+/* -- file -- */
+.column-bk_file_size{
+    width: 150px;
+}
+
+.bk_file_size_item small{
+    line-height: 15px;
+    display: block;
+    margin: 2px 0 4px;
+}
+
+.bk_file_size{
+    color: var(--bk-color-alert);
+    text-align: right;
+}
+
+.bk_file_size > p:first-child{
+    margin-bottom: 6px;
+    padding-left: 6px;
+}
+
+.bk_file_size .bk_good{
+    --bk-color-alert: var(--bkml-color-good);
+}
+
+.bk_file_size .bk_medium{
+    --bk-color-alert: var(--bkml-color-medium);
+}
+
+.bk_file_size .bk_high{
+    --bk-color-alert: var(--bkml-color-high);
+}
+
+.bk_file_size .bk_btn{
+    display: grid;
+    place-items: center;
+    width: 100%;
+    min-height: 30px;
+    padding: 0;
+    border: none;
+    background: transparent;
+}
+
+.bk_file_size .bk_btn .bk_txt{
+    width: 100%;
+}
+
+.bk_file_size .bk_btn.send{
+    cursor: wait;
+    pointer-events: none;
+}
+
+.bk_file_size .bk_btn.send .bk_txt{
+    display: none;
+}
+
+.bk_file_size .bk_btn.send .bk_loader{
+    display: block;
+}
+
+.bk_update_size{
+    display: block;
+    color: var(--bkml-blue);
+    cursor: pointer;
+    text-align: right;
+}
+
+.bk_update_size .dashicons {
+    font-size: 14px;
+    width: 14px;
+    height: 15px;
+    vertical-align: middle;
+}
+
+.bk_update_size:hover{
+    color: var(--bkml-blue-hover);
+}
+
+/* -- info -- */
+.widefat p.bk_alt{
+    color: var(--bk-color-alert);
+    border-top: 1px solid #d8d8d8;
+    padding-top: 4px;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 4%);
+}
+
+.bk_alt.bk_good{
+    --bk-color-alert: var(--bkml-color-good);
+}
+
+.bk_alt.bk_high{
+    --bk-color-alert: var(--bkml-color-high);
+}
+
+/* -- Loaders -- */
+.bk_loader {
+    width: 100%;
+    height: 4px;
+    position: relative;
+    background: var(--bkml-bg-btn-light);
+    overflow: hidden;
+    display: none;
+}
+
+.bk_loader.show {
+    display: block;
+}
+
+
+.bk_loader::after {
+    content: '';
+    width: 10px;
+    height: 4px;
+    background: var(--bkml-bg-btn);
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    animation: hitZak 1s linear infinite alternate;
+}
+  
+@keyframes hitZak {
+    0% {
+      left: 0;
+      transform: translateX(-1%);
+    }
+    100% {
+      left: 100%;
+      transform: translateX(-99%);
+    }
+}
+      

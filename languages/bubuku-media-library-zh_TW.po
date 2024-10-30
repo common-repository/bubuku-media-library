@@ -1,0 +1,80 @@
+# Translation of Plugins - Bubuku Media Library - Stable (latest release) in Chinese (Taiwan)
+# This file is distributed under the same license as the Plugins - Bubuku Media Library - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-09-20 23:16:43+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.0-alpha.3\n"
+"Language: zh_TW\n"
+"Project-Id-Version: Plugins - Bubuku Media Library - Stable (latest release)\n"
+
+#: src/BML_view.php:64
+msgid "In order to sort or filter by size, you need to calculate"
+msgstr "如需依據圖片檔案大小進行排序或篩選，便需重新計算。"
+
+#: src/BML_common.php:50
+msgid "This media is not supported."
+msgstr "不支援這個媒體。"
+
+#: src/BML_view.php:96
+msgid "Image alt text"
+msgstr "圖片替代文字"
+
+#: src/BML_view.php:72
+msgid "error"
+msgstr "發生錯誤。"
+
+#: src/BML_restapi.php:52
+msgid "empty Media ID"
+msgstr "空白媒體 ID"
+
+#: src/BML_filter.php:82
+msgid "High file size"
+msgstr "大型檔案大小"
+
+#: src/BML_filter.php:78
+msgid "Medium file size"
+msgstr "中型檔案大小"
+
+#: src/BML_filter.php:74
+msgid "Good file size"
+msgstr "良好檔案大小"
+
+#: src/BML_filter.php:70
+msgid "All file size"
+msgstr "全部檔案大小"
+
+#: src/BML_filter.php:51
+msgid "full alt text"
+msgstr "完整替代文字"
+
+#: src/BML_filter.php:47
+msgid "Empty alt text"
+msgstr "空白替代文字"
+
+#: src/BML_filter.php:43
+msgid "All alt text"
+msgstr "全部替代文字"
+
+#: src/BML_view.php:66
+msgid "Calculate"
+msgstr "計算"
+
+#. Author URI of the plugin
+msgid "https://www.bubuku.com/"
+msgstr "https://www.bubuku.com/"
+
+#. Author of the plugin
+msgid "Bubuku"
+msgstr "Bubuku"
+
+#. Description of the plugin
+msgid "Plugin created by Bubuku for media library management and optimization"
+msgstr "這個外掛由 Bubuku 開發，專為媒體庫管理及最佳化所設計。"
+
+#. Plugin Name of the plugin
+msgid "Bubuku Media Library"
+msgstr "Bubuku Media Library"

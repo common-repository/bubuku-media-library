@@ -1,0 +1,80 @@
+# Translation of Plugins - Bubuku Media Library - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - Bubuku Media Library - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-09-19 09:20:21+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.2\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - Bubuku Media Library - Stable (latest release)\n"
+
+#: src/BML_view.php:64
+msgid "In order to sort or filter by size, you need to calculate"
+msgstr "Para ordenar o filtrar por tamaño tienes que calcular"
+
+#: src/BML_common.php:50
+msgid "This media is not supported."
+msgstr "Este medio no está admitido."
+
+#: src/BML_view.php:96
+msgid "Image alt text"
+msgstr "Texto «alt» de la imagen"
+
+#: src/BML_view.php:72
+msgid "error"
+msgstr "error"
+
+#: src/BML_restapi.php:52
+msgid "empty Media ID"
+msgstr "ID de medio vacío"
+
+#: src/BML_filter.php:82
+msgid "High file size"
+msgstr "Tamaño grande de archivo"
+
+#: src/BML_filter.php:78
+msgid "Medium file size"
+msgstr "Tamaño medio de archivo"
+
+#: src/BML_filter.php:74
+msgid "Good file size"
+msgstr "Buen tamaño de archivo"
+
+#: src/BML_filter.php:70
+msgid "All file size"
+msgstr "Todos los tamaños de archivo"
+
+#: src/BML_filter.php:51
+msgid "full alt text"
+msgstr "Texto «alt» completo"
+
+#: src/BML_filter.php:47
+msgid "Empty alt text"
+msgstr "Texto «alt» vacío"
+
+#: src/BML_filter.php:43
+msgid "All alt text"
+msgstr "Todos los textos «alt»"
+
+#: src/BML_view.php:66
+msgid "Calculate"
+msgstr "Calcular"
+
+#. Author URI of the plugin
+msgid "https://www.bubuku.com/"
+msgstr "https://www.bubuku.com/"
+
+#. Author of the plugin
+msgid "Bubuku"
+msgstr "Bubuku"
+
+#. Description of the plugin
+msgid "Plugin created by Bubuku for media library management and optimization"
+msgstr "Plugin creado por Bubuku para la gestión y optimización de la biblioteca de medios"
+
+#. Plugin Name of the plugin
+msgid "Bubuku Media Library"
+msgstr "Bubuku Media Library"
